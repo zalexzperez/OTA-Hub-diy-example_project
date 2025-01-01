@@ -5,10 +5,6 @@
 #define OTAGH_REPO_NAME "OTA-Hub-diy-example_project"
 #include <OTA-Hub-diy.hpp>
 
-// Networking
-static const char *WIFI_SSID = "Hard-Stuff.com";
-static const char *WIFI_PASS = "password";
-
 #include <WiFiClientSecure.h>
 WiFiClientSecure wifi_client;
 
