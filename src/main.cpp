@@ -4,7 +4,7 @@
 #define OTAGH_OWNER_NAME "zalexzperez"
 #define OTAGH_REPO_NAME "OTA-Hub-diy-example_project"
 
-#define OTA_VERSION "v0.2.0"
+#define OTA_VERSION "v0.2.1"
 #include <OTA-Hub-diy.hpp>
 
 #include <WiFiClientSecure.h>
