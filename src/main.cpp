@@ -3,6 +3,8 @@
 // OTA Hub via GitHub
 #define OTAGH_OWNER_NAME "zalexzperez"
 #define OTAGH_REPO_NAME "OTA-Hub-diy-example_project"
+
+#define OTA_VERSION "v0.2.0"
 #include <OTA-Hub-diy.hpp>
 
 #include <WiFiClientSecure.h>
@@ -29,7 +31,7 @@ void setup()
     // Check OTA for updates
     OTA::UpdateObject details = OTA::isUpdateAvailable();
     details.print();
-    if (OTA::NO_UPDATE != details.condition)
+    if (details.condition == OTA::NEW_DIFFERENT)
     {
         Serial.println("An update is available!");
         // Perform OTA update
