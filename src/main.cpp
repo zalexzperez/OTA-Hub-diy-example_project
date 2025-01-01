@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 // OTA Hub via GitHub
-#define OTAGH_OWNER_NAME "Hard-Stuff"
+#define OTAGH_OWNER_NAME "zalexzperez"
 #define OTAGH_REPO_NAME "OTA-Hub-diy-example_project"
 #include <OTA-Hub-diy.hpp>
 
